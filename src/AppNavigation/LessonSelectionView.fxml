@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: #ffffff;" stylesheets="@../flowchartguicode/CSS/insertNodeSelection.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="lessonOne" layoutX="467.0" layoutY="141.0" mnemonicParsing="false" styleClass="variable-button" text="Lesson 1: Outputs">
+         <font>
+            <Font name="Verdana" size="24.0" />
+         </font>
+      </Button>
+      <Text fill="#322e2e" fontSmoothingType="LCD" layoutX="73.0" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lesson selection" textAlignment="CENTER">
+         <font>
+            <Font name="Rockwell" size="48.0" />
+         </font>
+      </Text>
+      <Button fx:id="exitButton" layoutX="42.0" layoutY="644.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="115.0" text="Exit">
+         <font>
+            <Font name="Verdana" size="32.0" />
+         </font>
+      </Button>
+      <Button fx:id="lessonTwo" layoutX="460.0" layoutY="215.0" mnemonicParsing="false" styleClass="variable-button" text="Lesson 2: Variables">
+         <font>
+            <Font name="Verdana" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="lessonThree" layoutX="453.0" layoutY="294.0" mnemonicParsing="false" styleClass="variable-button" text="Lesson 3: User input">
+         <font>
+            <Font name="Verdana" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="lessonFour" layoutX="442.0" layoutY="376.0" mnemonicParsing="false" styleClass="variable-button" text="Lesson 4: Conditionals">
+         <font>
+            <Font name="Verdana" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="lessonFive" layoutX="473.0" layoutY="450.0" mnemonicParsing="false" styleClass="variable-button" text="Lesson 5: Loops">
+         <font>
+            <Font name="Verdana" size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

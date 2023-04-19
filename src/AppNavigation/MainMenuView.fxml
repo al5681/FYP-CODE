@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: #ffffff;" stylesheets="@../flowchartguicode/CSS/insertNodeSelection.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="lessonsButton" layoutX="749.0" layoutY="227.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="173.0" styleClass="variable-button" text="Lessons" GridPane.rowIndex="1">
+         <font>
+            <Font name="Verdana" size="31.0" />
+         </font></Button>      <Button fx:id="chartBuilderButton" layoutX="720.0" layoutY="364.0" mnemonicParsing="false" prefHeight="77.0" prefWidth="256.0" styleClass="output-button" text="Chart builder">
+         <font>
+            <Font name="Verdana" size="31.0" />
+         </font></Button>
+      <Text fill="#322e2e" fontSmoothingType="LCD" layoutX="63.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Main menu" textAlignment="CENTER">
+         <font>
+            <Font name="Rockwell" size="48.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="74.0" fitWidth="146.0" layoutX="764.0" layoutY="91.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../startbuttonimage.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="85.0" fitWidth="143.0" layoutX="766.0" layoutY="504.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../stopbuttonimage.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="186.0" fitWidth="481.0" layoutX="63.0" layoutY="294.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../logo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="28.0" fitWidth="79.0" layoutX="797.0" layoutY="179.0" pickOnBounds="true" preserveRatio="true" rotate="90.0">
+         <image>
+            <Image url="@../Arrow_east.svg.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="28.0" fitWidth="79.0" layoutX="797.0" layoutY="315.0" pickOnBounds="true" preserveRatio="true" rotate="90.0">
+         <image>
+            <Image url="@../Arrow_east.svg.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="28.0" fitWidth="79.0" layoutX="797.0" layoutY="462.0" pickOnBounds="true" preserveRatio="true" rotate="90.0">
+         <image>
+            <Image url="@../Arrow_east.svg.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

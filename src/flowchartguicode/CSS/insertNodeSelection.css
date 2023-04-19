@@ -1,0 +1,74 @@
+.text-background {
+    -fx-background-color:#FFFFFF;
+}
+
+.stop-and-start-button {
+                -fx-background-color:#f0d0ff;
+                -fx-background-insets: 1;
+                -fx-background-radius:  1;
+                -fx-border-color: black;
+                -fx-border-radius: 50%;
+
+
+}
+
+.output-button {
+               -fx-background-color:#d0ffd0;
+               -fx-background-insets: 1;
+               -fx-background-radius:  1;
+               -fx-border-color: black;
+               -fx-shape: "M 0 600 L 100 0 L 4000 0 L 3900 600 L 0 600";
+}
+
+.input-button {
+               -fx-background-color:#c4615a;
+               -fx-background-insets: 1;
+               -fx-background-radius:  1;
+               -fx-border-color: black;
+               -fx-shape: "M 0 600 L 100 0 L 4000 0 L 3900 600 L 0 600";
+}
+
+.variable-button {
+               -fx-background-color:#ffffd0;
+               -fx-background-insets: 1;
+               -fx-background-radius:  1;
+               -fx-border-color: black;
+}
+
+.call-button {
+               -fx-background-color:#D3D3D3;
+               -fx-background-insets: 1;
+               -fx-background-radius:  1;
+               -fx-border-color: black;
+}
+
+.return-button {
+                -fx-background-color:#8eacbd;
+               -fx-background-insets: 1;
+               -fx-background-radius:  1;
+               -fx-border-color: black;
+}
+
+.if-button {
+               -fx-background-color:#98F5FF;
+               -fx-background-insets: 1;
+               -fx-background-radius:  1;
+               -fx-border-color: black;
+               -fx-shape: "M 0 200 L 100 50 L 2200 50 L 2300 200 L 2300 450 L 2200 600 L 150 600 L 0 500 L 0 200";
+}
+
+.loop-button {
+             -fx-background-color:#ffd4a0;
+             -fx-background-insets: 1;
+             -fx-background-radius:  1;
+             -fx-border-color: black;
+              -fx-shape: "M 0 300 L 100 50 L 2200 50 L 2300 300 L 2200 550 L 100 550 L 0 300";
+}
+
+.line-in-chart {
+   -fx-stroke-width: 3.5px;
+ }
+
+.line-in-chart:hover {
+   -fx-stroke: gold;
+ }
